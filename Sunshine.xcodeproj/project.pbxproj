@@ -13,6 +13,7 @@
 		AA39931C1E61634E00014609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA39931A1E61634E00014609 /* Main.storyboard */; };
 		AA39931E1E61634E00014609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA39931D1E61634E00014609 /* Assets.xcassets */; };
 		AA3993211E61634E00014609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA39931F1E61634E00014609 /* LaunchScreen.storyboard */; };
+		AA501A7F1E66FA6C00E86247 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA501A7E1E66FA6C00E86247 /* Location.swift */; };
 		AA8CF0F21E646D4C00F16B2F /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA8CF0F11E646D4C00F16B2F /* SwiftyJSON.framework */; };
 		AAD9C52C1E61A40800780CD0 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD9C52B1E61A40800780CD0 /* Alamofire.framework */; };
 		AAD9C52F1E61CFC800780CD0 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD9C52E1E61CFC800780CD0 /* GradientView.swift */; };
@@ -33,6 +34,7 @@
 		AA39931D1E61634E00014609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA3993201E61634E00014609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA3993221E61634E00014609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AA501A7E1E66FA6C00E86247 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 		AA8CF0F11E646D4C00F16B2F /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../Library/Developer/Xcode/DerivedData/Sunshine-coyakvlklfcvebgaiufyimvjcefq/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		AAD9C52B1E61A40800780CD0 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../Library/Developer/Xcode/DerivedData/Sunshine-coyakvlklfcvebgaiufyimvjcefq/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		AAD9C52E1E61CFC800780CD0 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
@@ -97,6 +99,7 @@
 				AA3993221E61634E00014609 /* Info.plist */,
 				AAD9C5351E63067200780CD0 /* Constants.swift */,
 				AAD9C5371E630B6E00780CD0 /* WeatherRepository.swift */,
+				AA501A7E1E66FA6C00E86247 /* Location.swift */,
 			);
 			path = Sunshine;
 			sourceTree = "<group>";
@@ -253,6 +256,7 @@
 			files = (
 				AAD9C5381E630B6E00780CD0 /* WeatherRepository.swift in Sources */,
 				AAD9C5311E62845D00780CD0 /* WeatherCell.swift in Sources */,
+				AA501A7F1E66FA6C00E86247 /* Location.swift in Sources */,
 				AA3993191E61634E00014609 /* MainVC.swift in Sources */,
 				AA3993171E61634E00014609 /* AppDelegate.swift in Sources */,
 				AAD9C52F1E61CFC800780CD0 /* GradientView.swift in Sources */,

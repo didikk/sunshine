@@ -12,8 +12,7 @@ import SwiftyJSON
 
 class WeatherRepository {
     func getWeather(completed: @escaping DownloadComplete){
-        let url = "\(WEATHER_URL)&lat=-7.813272&lon=110.397858"
-        Alamofire.request(url).responseJSON { response in
+        Alamofire.request(WEATHER_URL).responseJSON { response in
             if let value = response.result.value {
                 let json = JSON(value)
                 
